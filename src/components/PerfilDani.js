@@ -32,10 +32,9 @@ export default function AutoGridNoWrap() {
           <Grid item xs>
           <h2 className="nomeDesenvolvedor">Daniel Andrade</h2>
             <p className="textoSobreDani">
-                Desenvolvedor Web 5 Anos Trabalhando com Criação de Sites e Aplicativos em HTML
-                Cordova, JavaScript, CSS. Experiência em WordPress, Blogs,Lojas Virtuais.
-                Hoje Cursando Segundo Sementres de Análise e Desenvovimento de Sistemas e Programação 
-                Web Mobile Front-End na Instituição ELFUTEC.
+            Técnico em refrigeração 15 anos. Trabalhando com manuteçaõ em maquinas 
+            de lavar roupas e geladeiras. Devido a pandemia, sai da zona de conforto e voltei  
+            a estudar. Estou cursando segundo sementres de Análise e Desenvovimento de Sistemas  Instituição ELFUTEC. 
             </p>
           </Grid>
         </Grid>
