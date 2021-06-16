@@ -8,8 +8,8 @@ const StyledButton = withStyles({
   root: {
     background: 'linear-gradient(45deg, #5f0505 30%, #d11010 90%)',
     borderRadius: 3,
-    marginBottom:90,
-    marginTop:0,
+    marginBottom:100,
+    marginTop:10,
     border: 0,
     color: 'white',
     height: 48,

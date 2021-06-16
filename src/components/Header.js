@@ -12,7 +12,7 @@ function Hearder() {
                 <img src="../img/logo.png" style={{width:150,}}/>
               </div> 
               <div>
-                <h1 className="subTitulo" style={{display:'flex',textAlign:'center',alignItems:'center'}}>Desenvolvimento Web</h1>
+                <h1 className="subTitulo" style={{display:'flex',textAlign:'center',alignItems:'center',color:'white'}}>Desenvolvimento Web</h1>
               </div> 
       </div>
     );
