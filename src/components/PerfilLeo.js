@@ -30,10 +30,8 @@ export default function AutoGridNoWrap() {
           <Grid item xs>
           <h2 className="nomeDesenvolvedor">Leonardo Andrade</h2>
             <p className="textoSobreleo">
-                Desenvolvedor Web 5 Anos Trabalhando com Criação de Sites e Aplicativos em HTML
-                Cordova, JavaScript, CSS. Experiência em WordPress, Blogs,Lojas Virtuais.
-                Hoje Cursando Segundo Sementres de Análise e Desenvovimento de Sistemas e Programação 
-                Web Mobile Front-End na Instituição ELFUTEC.
+                Cursando Desenvolvimento fullstack, html, css, cursando o segundo modulo do curso com javaScript
+                sem experiência na area.
             </p>
           </Grid>
           <Grid item>
