@@ -2,6 +2,10 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import GitHubIcon from '@material-ui/icons/GitHub';
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -28,13 +32,16 @@ export default function AutoGridNoWrap() {
         <Grid container wrap="nowrap" spacing={2}>
           <Grid item>
             <img className="avatarPerfil"src="../img/dani.jpg" alt="Daniel Andrade"></img>
+            <div className="btnRedesocial" style={{marginBottom:50,marginTop:25,cursor:"pointer"}}>
+            <FacebookIcon style={{color:'rgb(95, 5, 5)'}}/>
+            <InstagramIcon style={{color:'rgb(95, 5, 5)'}}/>
+            <GitHubIcon style={{color:'rgb(95, 5, 5)'}}/>
+            </div>
           </Grid>
           <Grid item xs>
           <h2 className="nomeDesenvolvedor">Daniel Andrade</h2>
             <p className="textoSobreDani">
-            Técnico em refrigeração 15 anos. Trabalhando com manuteçaõ em maquinas 
-            de lavar roupas e geladeiras. Devido a pandemia, sai da zona de conforto e voltei  
-            a estudar. Estou cursando segundo sementres de Análise e Desenvovimento de Sistemas  Instituição ELFUTEC. 
+            Apaixonado por Tecnologia futuro Desenvolvedor FullStack ,Linguagens Usadas em nossa Agencia :HTML,CSS,JAVASCRIPT, Com uso de Bibliotecas e Frameworks como Bootstrap e React.js. Atualmente Estudando Desenvolvimento Web Na Instituição ELFUTEC.
             </p>
           </Grid>
         </Grid>

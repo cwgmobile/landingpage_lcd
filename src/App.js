@@ -10,13 +10,16 @@ import PerfilDani from './components/PerfilDani';
 
 function App() {
   return (
-    <div className="App">
+    <div className="Filtro">
+        <div className="App">
       <Header/> 
       <PerfilCharles/>
       <Perfilleo/>
       <PerfilDani/>
       <Form/>
+       </div>
     </div>
+    
   );
 }
 

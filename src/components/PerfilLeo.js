@@ -2,6 +2,10 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import GitHubIcon from '@material-ui/icons/GitHub';
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -38,6 +42,11 @@ export default function AutoGridNoWrap() {
           </Grid>
           <Grid item>
           <img className="avatarPerfil"src="../img/perfil_leonardo.jpg" alt="Leonardo Andrade"></img>
+          <div className="btnRedesocial" style={{marginBottom:50,marginTop:25,cursor:"pointer"}}>
+            <FacebookIcon style={{color:'rgb(95, 5, 5)'}}/>
+            <InstagramIcon style={{color:'rgb(95, 5, 5)'}}/>
+            <GitHubIcon style={{color:'rgb(95, 5, 5)'}}/>
+            </div>
           </Grid>
         </Grid>
       </Paper>

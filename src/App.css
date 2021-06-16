@@ -5,10 +5,12 @@ body {
   background-position: center;
   font-family:'Poppins', sans-serif;
   margin: auto;
+  background-image: url("./img/bg1.jpg");
 }
 .App {
   text-align: center;
 }
+
 .Logo{
   width: 20px;
   height: 20px;
@@ -83,4 +85,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.Filtro{
+
+  width: 100%;
+  height: 100%;
+  background-color: #14141486;
+  position:absolute;
+  top: 0;
+  left: 0;
 }
