@@ -27,26 +27,25 @@ export default function AutoGridNoWrap() {
      
       <Paper className={classes.paper}>
         <Grid container wrap="nowrap" spacing={2}>
-          <Grid item>
+          <Grid item >
             <img className="avatarPerfil"src="../img/perfil_charles.jpg" alt="Charles Godoy"></img>
-            <div className="btnRedesocial" style={{marginBottom:50,marginTop:25,cursor:"pointer"}}>
-            <FacebookIcon style={{color:'rgb(95, 5, 5)'}}/>
-            <InstagramIcon style={{color:'rgb(95, 5, 5)'}}/>
-            <GitHubIcon style={{color:'rgb(95, 5, 5)'}}/>
-            </div>
+              <div className="btnRedesocial" style={{marginBottom:50,marginTop:25,cursor:"pointer"}}>
+                  <FacebookIcon style={{color:'rgb(95, 5, 5)',}}/>
+                  <InstagramIcon style={{color:'rgb(95, 5, 5)'}}/>
+                  <GitHubIcon style={{color:'rgb(95, 5, 5)'}}/>
+              </div>
           </Grid>
-          <Grid item xs>
+          <Grid item >
               <h2 className="nomeDesenvolvedor">Charles Godoy</h2>
-                <p className="textoSobrecharles">
+                <p className="textoDev">
                     Desenvolvedor Web 5 Anos Trabalhando com Criação de Sites e Aplicativos em HTML
                     Cordova, JavaScript, CSS. Experiência em WordPress, Blogs,Lojas Virtuais.
-                    Hoje Cursando Segundo Sementres de Análise e Desenvovimento de Sistemas e Programação 
-                    Web Mobile Front-End na Instituição ELFUTEC.
+                    Hoje Cursando Segundo Semestre de Análise e Desenvovimento de Sistemas e Programação 
+                    Web Mobile e Front-End na Instituição ELFUTEC.
                 </p>
           </Grid>
         </Grid>
       </Paper>
-     
     </div>
   );
 }

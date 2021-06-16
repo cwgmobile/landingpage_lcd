@@ -2,13 +2,11 @@ import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 
-// The `withStyles()` higher-order component is injecting a `classes`
-// prop that is used by the `Button` component.
 const StyledButton = withStyles({
   root: {
     background: 'linear-gradient(45deg, #5f0505 30%, #d11010 90%)',
-    borderRadius: 3,
-    marginBottom:100,
+    borderRadius: 10,
+    marginBottom:90,
     marginTop:10,
     border: 0,
     color: 'white',

@@ -31,24 +31,24 @@ export default function AutoGridNoWrap() {
       <Paper className={classes.paper}>
         <Grid container wrap="nowrap" spacing={2}>
           
-          <Grid item xs>
-          <h2 className="nomeDesenvolvedor">Leonardo Andrade</h2>
-            <p className="textoSobreleo">
-                Cursando Desenvolvimento fullstack, html, css, cursando o segundo modulo do curso com javaScript
-                sem experiência na area.
+          <Grid item>
+              <div>
+                  <h2 className="nomeDesenvolvedor">Leonardo Andrade</h2>
+              </div>
+            <p className="textoDev">
+            Apaixonado por Tecnologia futuro Desenvolvedor FullStack ,Linguagens Usadas em nossa Agencia :HTML,CSS,JAVASCRIPT, Com uso de Bibliotecas e Frameworks como Bootstrap e React.js. Atualmente Estudando Desenvolvimento Web Na Instituição ELFUTEC.
             </p>
           </Grid>
           <Grid item>
           <img className="avatarPerfil"src="../img/perfil_leonardo.jpg" alt="Leonardo Andrade"></img>
-          <div className="btnRedesocial" style={{marginBottom:50,marginTop:25,cursor:"pointer"}}>
-            <FacebookIcon style={{color:'rgb(95, 5, 5)'}}/>
-            <InstagramIcon style={{color:'rgb(95, 5, 5)'}}/>
-            <GitHubIcon style={{color:'rgb(95, 5, 5)'}}/>
+            <div className="btnRedesocial" style={{marginBottom:50,marginTop:25,cursor:"pointer",color:'rgb(95, 5, 5)'}}>
+                <FacebookIcon/>
+                <InstagramIcon/>
+                <GitHubIcon/>
             </div>
           </Grid>
         </Grid>
       </Paper>
-     
     </div>
   );
 }

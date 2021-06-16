@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import './App.css';
 import'normalize.css'; // pessoal o normalize ajuda a perfeiçoar o CSS
-
+import './responsive.css';
 
 
 ReactDOM.render(
